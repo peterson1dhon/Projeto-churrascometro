@@ -20,9 +20,9 @@ function calcular(){
   let qdtTotalCerveja = cervejaPP(duração) *  adultos;
   let qdtTotalRefri = RefriPP(duração) *  adultos + (RefriPP(duração) /2 * crianças);
 
-  resultado.innerHTML = `<p>${qdtTotalCarne / 1000} kg de Carne </p>`
-  resultado.innerHTML += `<p>${Math.ceil(qdtTotalCerveja / 355)} latas de cerveja </p>`
-  resultado.innerHTML += `<p>${Math.ceil(qdtTotalRefri / 2000)} Garrafas Pet´s 2l de refrigerante </p>`
+  resultado.innerHTML = `<p><em>${qdtTotalCarne / 1000} kg de Carne <em></p>`
+  resultado.innerHTML += `<p> <em>${Math.ceil(qdtTotalCerveja / 355)} latas de cerveja <em> </p>`
+  resultado.innerHTML += `<p> <em>${Math.ceil(qdtTotalRefri / 2000)} Garrafas Pet´s 2l de refrigerante<em> </p>`
 
 }
 

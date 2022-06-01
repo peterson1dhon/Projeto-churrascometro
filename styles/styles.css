@@ -4,9 +4,12 @@
 
 .container{
   font-family: 'Courier New', Courier, monospace;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: auto;
-  background: rgb(135, 218, 185);
+  /* background: rgb(135, 218, 185); */
+  background-image: url(../assets/Churrasco-barato.jpg);
+  background-repeat: no-repeat;
+  background-size: 60rem;
   padding: 2rem;
   border-radius: 10px;
 }
@@ -14,18 +17,31 @@
 h1{
   margin-top: 0;
   color: #fff;
+  text-align: center;
+}
+
+em{
+  background: #333;
+  border-radius: 5px;
 }
 
 input{
   width: 100%;
   display: block;
-  padding: .5rem;
-  box-sizing: border-box;
+  padding: .7rem;
+  /* box-sizing: border-box; */
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 
 p{
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
+  text-align: center;
+}
+
+p em{
+  border-radius: 7px;
+  background: #333;
 }
